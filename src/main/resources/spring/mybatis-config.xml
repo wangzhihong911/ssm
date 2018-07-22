@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 实体类,简称 -设置别名 -->
+    <typeAliases>
+        <typeAlias alias="UserDTO" type="com.wzh.web.model.UserDTO"/>
+    </typeAliases>
+    <!-- 全新写法 不在需要配置xmlDAO.xml -->
+
+    <!-- pojo的映射文件UserMapper引入到配入到配置文件中 -->
+    <!-- resource要写成路径
+    <mappers>
+        <mapper resource="com/wzh/web/dao/UserDAO.xml"/>
+    </mappers>
+    -->
+</configuration>
