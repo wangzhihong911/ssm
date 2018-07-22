@@ -191,11 +191,18 @@
             <version>1.1.2</version>
         </dependency>
         <!-- jstl-->
+    <!--文件上传-->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.1</version>
+        </dependency>
 
 
     </dependencies>
 
     <build>
+        <!-- IDEA 默认不会编译java目录下的xml文件，设置编译-->
         <resources>
             <resource>
                 <directory>src/main/java</directory>
